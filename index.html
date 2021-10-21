@@ -13,31 +13,47 @@
 <body>
   <h1>Animal Wiki</h1>
   <div class="container">
-    <div class="radio">
-      <p>Select the animal you'd like to learn about:</p>
-      <label class="radio">
-        <input type="radio" name="animal" value="turtles" checked>
-        Turtles
-      </label>
-      <label class="radio">
-        <input type="radio" name="animal" value="snakes">
-        Snakes
-      </label>
-      <label class="radio">
-        <input type="radio" name="animal" value="insects">
-        Insects
-      </label>
-
+    <form id="animals">
+      <label for="animal">Select the animal you'd like to learn about:</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="turtles" checked>
+          Turtles
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="snakes">
+          Snakes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="insects">
+          Insects
+        </label>
+      </div>
+          
+      <button type="submit" class="btn btn-dark">Submit!</button>
+    </form>
+  
+    <div class="row" id="turtles">
+      <div class="col">
+        <p>turtle test</p>
+      </div>
     </div>
-    <div id="turtles">
-      <p>turtle test</p>
+    <div class="row" id="snakes">
+      <div class="col-12">
+        <p>snakes test</p>
+      </div>
     </div>
-    <div id="snakes">
-      <p>snakes test</p>
-    </div>
-    <div id="insects">
-      <p>insects test</p>
+    
+    <div class="row" id="insects">
+      <div class="col-12">
+        <p>insects test</p>
+      </div>      
     </div>
   </div>
+
 </body>
 </html>

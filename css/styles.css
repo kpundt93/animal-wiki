@@ -1,3 +1,13 @@
+#turtles, #snakes, #insects {
+  display: none;
+}
+
 .radio {
   display: block;
+
+}
+
+h1 {
+  text-align: center;
+  padding: 2em;
 }
