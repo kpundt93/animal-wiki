@@ -2,39 +2,42 @@
 
 #### _A page for a animal facts._
 
-#### By _**Michael Watkins**_  _**Katie Pundt**_
+#### By _**Michael Watkins and Katie Pundt**_
 
 ## Technologies Used
-
 * _HTML_
-* _Markdown_
-* _Git Repositories_
-* _Javascript_
+* _CSS_
 * _Bootstrap_
+* _Javascript_
 * _jQuery_
+* _git_
+* _Markdown_
+* _GitHub_
+
 
 ## Description
-
-_{A website for animal facts.}_
+_A website for animal facts._
 
 ## Setup/Installation Requirements
-
-* _Navigate to https://github.com/kpundt93/animal-wiki in your browser_
-* _Clone this repository to your desktop_
-* _Navigate to the top level of the directory_
-* _Connect to your github repository_
-* _open DIRECTORYNAME/index.html in your browser_
-* _Open files in VS Code to edit_
+* Navigate to https://github.com/kpundt93/animal-wiki
+* Click on the green "Code" button and copy the repository URL or click on the copy button
+* Open the terminal on your desktop
+* Once in the terminal, use it to navigate to your desktop folder
+* Once inside your desktop folder, use the command `git clone https://github.com/kpundt93/animal-wiki.git`
+* After cloning the project, navigate into it using the command `cd animal-wiki`
+* Use the command `git remote` to confirm the creation of the new local repository
+* Open the project in your preferred text editor
 
 ## Known Bugs
-
-_No known issues_
+_No known bugs_
 
 ## License
 
-_{MIT Copyright (c) 2021 Michael Watkins, Katie Pundt}_
+_MIT License: https://opensource.org/licenses/MIT_
+
+Copyright (c) 2021 Michael Watkins, Katie Pundt
 
 ## Contact Information
 
-_{Michael Watkins michaelhugheswatkins@gmail.com}_
-_{Katie Pundt kzpundt@gmail.com}_
+* _Michael Watkins, michaelhugheswatkins@gmail.com_
+* _Katie Pundt, kzpundt@gmail.com_
